@@ -522,19 +522,23 @@ li{
         margin-left: 160px;
     }
     .header{
-        background-position: -190px;
+        background-position: -210px;
     }
     .intro__text{
         font-weight: 600;
     }
 }
 @media (max-width:552px){
-    .content-text{
+    .content-text .second_main_text{
         margin-right: 102px;
         line-height: 150%;
     }
     .intro_quote{
         margin-left: 120px;
+    }
+    .header__date span{
+        padding-top: 32px;
+        font-size: 12px;
     }
 }
 @media (max-width:413px){
