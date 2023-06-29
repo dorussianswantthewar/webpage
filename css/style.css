@@ -540,6 +540,15 @@ li{
         padding-top: 32px;
         font-size: 12px;
     }
+    .intro_about{
+        margin-top:60px;
+    }
+    .content-nav{
+        font-size: 18px;
+    }
+    .content-nav .menu ul li{
+        font-size: 14px;
+    }
 }
 @media (max-width:413px){
     .intro_quote{
