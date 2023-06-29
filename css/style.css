@@ -48,12 +48,13 @@ video{
     width: 800px;
     margin-top: 245px;
     float:right;
-    margin-right: 100px;
+    margin-right: 90px;
 }
 .intro__text{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
+    font-size:  93px;
     line-height: 77.45px;
     text-align: right;
 }
@@ -472,7 +473,7 @@ li{
         display:none;
     }
     #videoMessage{
-        background-image: url(../img/background_mobile.jpg);
+        background-image: url(../img/mobile.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -494,10 +495,51 @@ li{
     .queote_flex span{
         font-size: 12px;
     }
+    .intro__black span{
+        font-size: 18px;
+    }
+    .intro__red span{
+        font-size: 18px;
+    }
+    .intro__text{
+        line-height: 1px;
+    }
 }
 @media (max-width:995px){
     .intro__text span{
         font-size: 24px;
         line-height: 1px;
     }
+    .intro{
+        margin-top: 128px;
+    }
+}
+@media (max-width:771px){
+    .queote_flex span{
+        font-size: 14px;
+    }
+    .intro_quote{
+        margin-left: 160px;
+    }
+    .header{
+        background-position: -190px;
+    }
+    .intro__text{
+        font-weight: 600;
+    }
+}
+@media (max-width:552px){
+    .content-text{
+        margin-right: 102px;
+        line-height: 150%;
+    }
+    .intro_quote{
+        margin-left: 120px;
+    }
+}
+@media (max-width:413px){
+    .intro_quote{
+        margin-left: 100px;
+    }
+
 }
