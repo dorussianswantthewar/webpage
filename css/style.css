@@ -397,7 +397,7 @@ li{
         float:right
     }
      .header{
-    height: 70vh;
+    height: 96vh;
    }
    .intro__text{
     line-height: 40px;
@@ -473,7 +473,7 @@ li{
         display:none;
     }
     #videoMessage{
-        background-image: url(../img/mobile.jpg);
+        background-image: url(../img/mobile1.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -504,6 +504,8 @@ li{
     .intro__text{
         line-height: 1px;
     }
+    
+    }
 }
 @media (max-width:995px){
     .intro__text span{
@@ -518,15 +520,47 @@ li{
     .queote_flex span{
         font-size: 14px;
     }
+    .queote_flex {
+        padding-top: 0px;
+    }
     .intro_quote{
         margin-left: 160px;
     }
     .header{
-        background-position: -210px;
+        background-position: -311px;
     }
     .intro__text{
         font-weight: 600;
     }
+    .intro {
+    margin-top: 67px;
+    margin-right: 4px;
+}
+    .content-text{
+        text-align: center;
+    }
+    .off-content-blocks, .off-content-help{
+        margin-top:50px;
+    }
+    .filter_block{
+        margin-top: 60px;
+    }
+    .filter_block_second{
+        margin-top: 160px;
+    }
+    .filter_block_donate{
+        margin-top: 160px;
+    }
+    .menu{
+        text-align: center;
+    }
+    .mgtop{
+        margin-top: 40px;
+    }
+}
+.intro_section #videoDiv{
+   margin-top: -85px;
+   padding-top: 0px;
 }
 @media (max-width:552px){
     .content-text .second_main_text{
