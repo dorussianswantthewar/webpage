@@ -468,6 +468,9 @@ li{
 .intro_quote{
     align-items: flex-start;
 }
+.notdislpay{
+    display: none;
+}
 @media (max-width:1400px){
     video{
         display:none;
@@ -566,13 +569,19 @@ li{
      }
      .text_2riadk{
         max-width: 352px;
+        line-height: 160%;
      }
      .text_1riadk{
-        max-width: 310px;
+        max-width: 192px;
+        line-height: 160%;
      }
      .text_3riadk{
         max-width: 310px;
+        line-height: 160%;
      }
+     .notdislpay{
+        display: block;
+    }
 }
 
 @media (max-width:552px){
